@@ -1,0 +1,120 @@
+'''
+Program Name: math_game_.py
+Date: May 10 2023
+Author: NB Mistry
+Description: Play this math game.
+Version: 1.0
+'''
+print("In this math game you will have two attempts to play. Your highest score will be kept. NO CALCULATOR ALLOWED. " )
+score_1 = 0
+
+# question 1.
+print("3 + 5 = ")
+answer_1 = float(input("Your answer: "))
+if answer_1 == 8:
+    print("Correct. ")
+    score_1 += 1
+else:
+    score_1 +- 1
+
+# question 2. 
+print("5 + 7 = ")
+answer_2 = float(input("Your answer: "))
+if answer_2 == 12:
+    print("Correct. ")
+    score_1 += 1
+else:
+    score_1 +- 1
+
+# question 3. 
+print("12 * 13 = ")
+answer_3 = float(input("Your answer: "))
+if answer_3 == 156:
+    print("Correct. ")
+    score_1 += 1
+else:
+    score_1 +- 1
+
+# question 4. 
+print("34 * 76 = ")
+answer_4 =  float(input("Your answer: "))
+if answer_4 == 2584:
+    print("Correct. ")
+    score_1 += 1
+else:
+    score_1 +- 1
+
+# score: 
+print("Your score for attempt one: " , score_1)
+
+
+
+### END OF ATTEPMT ONE
+
+
+# attempt two: 
+choice = input("Would you like to try again? Enter 'yes' or 'no' : ").upper()
+if choice == "YES":
+    print("Great! Here are four new questions: ")
+
+if choice == "NO":
+    print("Your score is" , score_1 , ", bye.")
+
+exit()
+
+score_2 = 0
+
+# question 5.
+print("5 + 6 = ")
+answer_2 = float(input("Your answer: "))
+if answer_2 == 11:
+    print("Correct. ")
+    score_2 += 1
+else:
+    score_2 +- 1
+
+# question 6.
+print("9 * 3 = ")
+answer_2 = float(input("Your answer: "))
+if answer_2 == 27:
+    print("Correct. ")
+    score_2 += 1
+else:
+    score_2 +- 1
+    
+# question 7.
+print("27 * 13 = ")
+answer_2 = float(input("Your answer: "))
+if answer_2 == 351:
+    print("Correct. ")
+    score_2 += 1
+else:
+    score_2 +- 1
+
+# question 8.
+print("304 * 6 = ")
+answer_2 = float(input("Your answer: "))
+if answer_2 == 1824:
+    print("Correct. ")
+    score_2 += 1
+else:
+    score_2 +- 1
+
+# score: 
+print("Your score for attempt two: " , score_2)
+
+print("Preparing your overall score...")
+print("Please wait -_- ")
+
+if score_1 > score_2:
+    print("Your final score is: " , score_1)
+
+if score_2 > score_1: 
+    print("Your final score is: " , score_2)
+
+if score_1 == score_2:
+    print("Your final score is: " , score_1 or score_2)
+
+
+
+
