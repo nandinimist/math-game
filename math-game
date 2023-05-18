@@ -2,7 +2,7 @@
 Program Name: math_game_.py
 Date: May 10 2023
 Author: NB Mistry
-Description: Play this math game.
+Description: Play this math game. The highest of your two scores will be kept.
 Version: 1.0
 '''
 print("In this math game you will have two attempts to play. Your highest score will be kept. NO CALCULATOR ALLOWED. " )
